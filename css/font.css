@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "IMB";
+    src: url(../fonts/IBMPlexSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "IMB";
+    src: url(../fonts/IBMPlexSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "IMB";
+    src: url(../fonts/IBMPlexSans-SemiBold.ttf);
+    font-weight: 600;
+}
