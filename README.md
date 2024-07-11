@@ -64,4 +64,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Your Name - [sabirov.azizbek@icloud.com](mailto:sabirov.azizbek@icloud.com)
 
 Project Link: [https://github.com/StevenSabiro/Mylo](https://github.com/StevenSabiro/Mylo)
-```
