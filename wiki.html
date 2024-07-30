@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Фрейм с сайтом</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="./css/all.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/media.css" />
+		<link rel="stylesheet" href="./css/wiki.css" />
+	</head>
+	<body>
+		<nav class="header__nav" id="myHeader">
+			<a href="" class="nav__logo"
+				><img src="./imgs/HeaderLogo.png" alt="" class="nav__img" /><span
+					>Мыло</span
+				></a
+			>
+			<button class="burger"><i class="fas fa-bars"></i></button>
+			<ul class="nav__menu">
+				<li><a href="" class="nav__link">Главная</a></li>
+				<li><a href="./wiki" class="nav__link">Вики</a></li>
+				<li>
+					<a href="" onclick="alert(`В разработке`)" class="nav__link"
+						>Магазин</a
+					>
+				</li>
+			</ul>
+		</nav>
+		<iframe
+			src="https://mylo-privatnyi-server-mainkraft.gitbook.io/untitled#koncepciya-5go-sezona"
+			width="100%"
+			height="100%"
+			frameborder="0"
+		>
+			Ваш браузер не поддерживает фреймы.
+		</iframe>
+		<section class="ticket">
+			<div class="ticket__content container">
+				<img src="./imgs/TicketDecor.png" alt="" class="ticket__decor" />
+				<i class="far fa-times ticket__close"></i>
+				<div>
+					<h1 class="ticket__title">Как попасть на сервер?</h1>
+					<div class="ticket__texts">
+						<h2 class="ticket__desc">
+							Зайти в
+							<a href="https://discord.gg/mylo" target="_blank">дискорд</a>
+						</h2>
+						<img
+							src="./imgs/Arrow 1 (Stroke).svg"
+							class="ticket__arrow1"
+							alt=""
+						/>
+					</div>
+				</div>
+				<div class="ticket__show">
+					<h2 class="ticket__desc">Оставить заявку</h2>
+					<img class="ticket__img" src="./imgs/DiscordTicket.svg" alt="" />
+					<a href="https://discord.gg/mylo" target="_blank"
+						><img class="ticket__showbtn" src="./imgs/Button.svg" alt=""
+					/></a>
+					<img src="./imgs/Arrow 2.svg" class="ticket__arrow2" alt="" />
+				</div>
+				<div class="ticket__last">
+					<div class="ticket__link">
+						<h2 class="ticket__lastText">
+							Почему бы не попробовать просто зайти в наш
+						</h2>
+						<div class="discord">
+							<div class="discord__logo">
+								<img class="discord__icon" src="./imgs/Discord.svg" alt="" />
+								<span>Discord</span>
+							</div>
+							<a
+								href="https://discord.gg/mylo"
+								class="discord__link"
+								target="_blank"
+								>Вступить</a
+							>
+						</div>
+					</div>
+					<div class="ticket__why">
+						<h2 class="ticket__whyTitle">
+							Вход бесплатный <br />
+							Так что...
+						</h2>
+						<img src="./imgs/Arrow 3.svg" class="ticket__arrow3" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-0HSKECF2LH"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag('js', new Date())
+
+			gtag('config', 'G-0HSKECF2LH')
+		</script>
+		<script src="script.js"></script>
+	</body>
+</html>

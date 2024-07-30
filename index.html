@@ -47,8 +47,12 @@
 				<button class="burger"><i class="fas fa-bars"></i></button>
 				<ul class="nav__menu">
 					<li><a href="" class="nav__link">Главная</a></li>
-					<li><a href="" onclick="alert(`В разработке`)" class="nav__link">Вики</a></li>
-					<li><a href="" onclick="alert(`В разработке`)" class="nav__link">Магазин</a></li>
+					<li><a href="./wiki" class="nav__link">Вики</a></li>
+					<li>
+						<a href="" onclick="alert(`В разработке`)" class="nav__link"
+							>Магазин</a
+						>
+					</li>
 					<button class="nav__play">Играть</button>
 				</ul>
 			</nav>
@@ -72,9 +76,7 @@
 					<button class="header__play">
 						<i class="fas fa-play"></i>Начать играть!
 					</button>
-					<a href="#main__read" class="header__read"
-						>Читать далее ↓</a
-					>
+					<a href="#main__read" class="header__read">Читать далее ↓</a>
 					<div class="header__icons">
 						<a
 							target="_blank"
@@ -262,25 +264,69 @@
 							<p class="footer__title">Навигация</p>
 							<ul class="">
 								<li><a href="" class="footer__link">Главная</a></li>
-								<li><a href="" onclick="alert(`В разработке`)" class="footer__link">Вики</a></li>
-								<li><a href="" onclick="alert(`В разработке`)" class="footer__link">Магазин</a></li>
+								<li><a href="./wiki" class="footer__link">Вики</a></li>
+								<li>
+									<a
+										href=""
+										onclick="alert(`В разработке`)"
+										class="footer__link"
+										>Магазин</a
+									>
+								</li>
 							</ul>
-						</div>						
+						</div>
 						<div class="footer__nav">
 							<p class="footer__title">Соц-сети</p>
 							<ul class="">
-								<li><a href="https://vk.com/mylo_original" class="footer__link">ВКонтакте</a></li>
-								<li><a href="https://discord.gg/mylo" class="footer__link">Discord</a></li>
-								<li><a href="https://t.me/Mylojh" class="footer__link">Telegram</a></li>
-								<li><a href="https://www.youtube.com/@Mylozh" class="footer__link">YouTube</a></li>
+								<li>
+									<a href="https://vk.com/mylo_original" class="footer__link"
+										>ВКонтакте</a
+									>
+								</li>
+								<li>
+									<a href="https://discord.gg/mylo" class="footer__link"
+										>Discord</a
+									>
+								</li>
+								<li>
+									<a href="https://t.me/Mylojh" class="footer__link"
+										>Telegram</a
+									>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/@Mylozh" class="footer__link"
+										>YouTube</a
+									>
+								</li>
 							</ul>
 						</div>
 						<div class="footer__nav">
 							<p class="footer__title">Документы</p>
 							<ul class="">
-								<li><a href="" onclick="alert(`В разработке`)" class="footer__link">Договор оферты</a></li>
-								<li><a href="" onclick="alert(`В разработке`)" class="footer__link">Пользовательское соглашение</a></li>
-								<li><a href="" onclick="alert(`В разработке`)" class="footer__link">Политика конфиденциальности</a></li>
+								<li>
+									<a
+										href=""
+										onclick="alert(`В разработке`)"
+										class="footer__link"
+										>Договор оферты</a
+									>
+								</li>
+								<li>
+									<a
+										href=""
+										onclick="alert(`В разработке`)"
+										class="footer__link"
+										>Пользовательское соглашение</a
+									>
+								</li>
+								<li>
+									<a
+										href=""
+										onclick="alert(`В разработке`)"
+										class="footer__link"
+										>Политика конфиденциальности</a
+									>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -347,6 +393,20 @@
 				</div>
 			</div>
 		</section>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-0HSKECF2LH"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag('js', new Date())
+
+			gtag('config', 'G-0HSKECF2LH')
+		</script>
 		<script src="script.js"></script>
 	</body>
 </html>
